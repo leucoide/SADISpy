@@ -13,5 +13,7 @@ XML Format:
 
 
 ## Usage:
-1. Open Terminal
-2. $sadispy /PATH/TO/CSVFILENAME.CSV 
+1. Learn to you the terminal on your Linux or MacOSX PC
+2. $sadis.py -distribuidor /PATH/TO/CSVDISTRIBUIDOR.CSV 
+3. $sadis.py -cinema /PATH/TO/CSVCINEMAINFO.CSV 
+3. $sadis.py -sessoes /PATH/TO/CSVSESSOESDECINEMA.CSV 
