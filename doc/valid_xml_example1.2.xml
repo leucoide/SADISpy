@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XSD_SADIS xmlns:tns="http://www.example.org/tipos/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://ancinet/media/SAVISADIS/xsd/Schema_XML_SADIS_v1_2.xsd" version="1.2">
+
+<dadosEnvio>
+        <nomeArquivo>SADIS17774092011</nomeArquivo>
+        <empresaRemetente>
+                <CNPJ>04884574000120</CNPJ>
+                <razaoSocial>AGENCIA NACIONAL DE CINEMA</razaoSocial>
+        </empresaRemetente>
+        <empresaDistribuidora>
+                <CNPJ>04884574000120</CNPJ>
+                <cdRegAncine>17774</cdRegAncine>
+                <razaoSocial>AGENCIA NACIONAL DE CINEMA</razaoSocial>
+        </empresaDistribuidora>
+        <periodoInformado>
+                <dataInicio>2015-01-01</dataInicio>
+                <dataFim>2015-01-31</dataFim>
+        </periodoInformado>
+</dadosEnvio>
+
+<dadosExibicao>
+        <obra>
+                <cdRegAncine>B1402704900000</cdRegAncine> <!-- Informar CPB/ROE ou registro Ancine -->
+                <tituloOriginal>LOUCAS PRA CASAR</tituloOriginal>
+                <dataLancamento>2015-01-08</dataLancamento>
+                <salas>
+                        <sala>
+                                <cdRegAncineSala>9999999</cdRegAncineSala> <!-- Sala não registrada -->
+                                <CNPJSala>05738631000126</CNPJSala>
+                                <nomeSala>Sala Nova 1</nomeSala>
+                                <ufSala>RJ</ufSala>
+                                <municipioSala>Rio de Janeiro</municipioSala> <!-- Município deve ser informado como disponível na planilha do IBGE.
+Link para download de 2014: ftp://geoftp.ibge.gov.br/organizacao_territorial/divisao_territorial/2014/dtb_2014.zip --> <cdRegAncineComplexo>9999999</cdRegAncineComplexo> <!-- Complexo também não existe: 9999999 -->
+                                <exibicoes>
+                                        <detalheExibicao>
+                                                <dataExibicao>2015-01-01</dataExibicao> <!-- Dia cinematográfico -->
+                                                <sessao dataHoraInicio="2015-01-01 23:00">
+                                                        <qtdPublico>100</qtdPublico>
+                                                        <vrRenda>2150.80</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-02 01:00"> <!-- Exibido no dia 02, mas percente ao dia cinematográfico 01 -->
+                                                        <qtdPublico>32</qtdPublico>
+                                                        <vrRenda>952.40</vrRenda>
+                                                </sessao>
+                                        </detalheExibicao>
+                                        <detalheExibicao>
+                                                <dataExibicao>2015-01-02</dataExibicao>
+                                                <sessao dataHoraInicio="2015-01-02 18:00">
+                                                        <qtdPublico>150</qtdPublico>
+                                                        <vrRenda>3115.00</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-02 20:00">
+                                                        <qtdPublico>170</qtdPublico>
+                                                        <vrRenda>2144.00</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-02 22:00">
+                                                        <qtdPublico>85</qtdPublico>
+                                                        <vrRenda>1580.00</vrRenda>
+                                                </sessao>
+                                        </detalheExibicao>
+                                </exibicoes>
+                        </sala>
+                        <sala>
+                                <cdRegAncineSala>9999999</cdRegAncineSala>
+                                <CNPJSala>03459043000128</CNPJSala>
+                                <nomeSala>CINE SANTA TERESA 2</nomeSala> <!-- Sala nova, não existe no registro da Ancine --> <ufSala>RJ</ufSala>
+                                <municipioSala>RIO DE JANEIRO</municipioSala> <!-- Não há diferença se escrito em maiúsculas ou minúsculas --> <cdRegAncineComplexo>14201</cdRegAncineComplexo> <!-- Complexo existente na Ancine -->
+                                <exibicoes>
+                                        <detalheExibicao>
+                                                <dataExibicao>2015-01-01</dataExibicao>
+                                                <sessao dataHoraInicio="2015-01-01 10:00">
+                                                        <qtdPublico>350</qtdPublico>
+                                                        <vrRenda>4100.00</vrRenda>
+                                                </sessao>
+                                        </detalheExibicao>
+                                </exibicoes>
+                        </sala>
+                        <sala>
+                                <cdRegAncineSala>5002096</cdRegAncineSala>
+                                <CNPJSala>00779721004210</CNPJSala>
+                                <nomeSala>CINEMARK FLORIANÓPOLIS I</nomeSala>
+                                <exibicoes>
+                                        <detalheExibicao>
+                                                <dataExibicao>2015-01-25</dataExibicao>
+                                                <sessao dataHoraInicio="2015-01-25 14:00">
+                                                        <qtdPublico>100</qtdPublico>
+                                                        <vrRenda>2000.00</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-25 16:40">
+                                                        <qtdPublico>150</qtdPublico>
+                                                        <vrRenda>3000.00</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-25 19:10">
+                                                        <qtdPublico>180</qtdPublico>
+                                                        <vrRenda>3450.00</vrRenda>
+                                                </sessao>
+                                                <sessao dataHoraInicio="2015-01-25 21:40">
+                                                        <qtdPublico>190</qtdPublico>
+                                                        <vrRenda>3670.00</vrRenda>
+                                                </sessao>
+                                        </detalheExibicao>
+                                </exibicoes>
+                        </sala>
+                </salas>
+        </obra>
+</dadosExibicao>
+</XSD_SADIS>
