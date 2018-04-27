@@ -31,7 +31,8 @@ xsi:noNamespaceSchemaLocation="http://ancinet/media/SAVISADIS/xsd/Schema_XML_SAD
                                 <nomeSala>Sala Nova 1</nomeSala>
                                 <ufSala>RJ</ufSala>
                                 <municipioSala>Rio de Janeiro</municipioSala> <!-- Município deve ser informado como disponível na planilha do IBGE.
-Link para download de 2014: ftp://geoftp.ibge.gov.br/organizacao_territorial/divisao_territorial/2014/dtb_2014.zip --> <cdRegAncineComplexo>9999999</cdRegAncineComplexo> <!-- Complexo também não existe: 9999999 -->
+Link para download de 2014: ftp://geoftp.ibge.gov.br/organizacao_territorial/divisao_territorial/2014/dtb_2014.zip -->
+                                <cdRegAncineComplexo>9999999</cdRegAncineComplexo> <!-- Complexo também não existe: 9999999 -->
                                 <exibicoes>
                                         <detalheExibicao>
                                                 <dataExibicao>2015-01-01</dataExibicao> <!-- Dia cinematográfico -->
@@ -64,8 +65,10 @@ Link para download de 2014: ftp://geoftp.ibge.gov.br/organizacao_territorial/div
                         <sala>
                                 <cdRegAncineSala>9999999</cdRegAncineSala>
                                 <CNPJSala>03459043000128</CNPJSala>
-                                <nomeSala>CINE SANTA TERESA 2</nomeSala> <!-- Sala nova, não existe no registro da Ancine --> <ufSala>RJ</ufSala>
-                                <municipioSala>RIO DE JANEIRO</municipioSala> <!-- Não há diferença se escrito em maiúsculas ou minúsculas --> <cdRegAncineComplexo>14201</cdRegAncineComplexo> <!-- Complexo existente na Ancine -->
+                                <nomeSala>CINE SANTA TERESA 2</nomeSala> <!-- Sala nova, não existe no registro da Ancine -->
+                                <ufSala>RJ</ufSala>
+                                <municipioSala>RIO DE JANEIRO</municipioSala> <!-- Não há diferença se escrito em maiúsculas ou minúsculas -->
+                                <cdRegAncineComplexo>14201</cdRegAncineComplexo> <!-- Complexo existente na Ancine -->
                                 <exibicoes>
                                         <detalheExibicao>
                                                 <dataExibicao>2015-01-01</dataExibicao>
